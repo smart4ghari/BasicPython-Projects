@@ -10,4 +10,6 @@ speaker.runAndWait()                    #runAndWait is a defa   ult command
 
 
 #Note
+#First of all install pyttsx3 module using the following command: pip install pyttsx3
+#Next install PyPDF2 module using the following command: pip instll PyPDF2
 """Inside the "pdf file name" enter the pdf which you want to read and instead of page number denote the page number from where you want to begin"""
