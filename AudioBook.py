@@ -6,7 +6,7 @@ page = pdfReader.getPage(page number)             #Mention the page from where y
 text_extract = page.extractText()       #This variable helps to extract the text from pdf
 speaker = pyttsx3.init()                #Initializing the pyttsx3 module
 speaker.say(text_extract)               #Get the output as speech
-speaker.runAndWait()                    #runAndWait is a defa   ult command
+speaker.runAndWait()                    #runAndWait is a default command
 
 
 #Note
